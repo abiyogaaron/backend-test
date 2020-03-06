@@ -1,0 +1,33 @@
+{
+  "name": "backend-test",
+  "version": "1.0.0",
+  "description": "santa ursula school learning backend",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon",
+    "serve": "SET NODE_ENV=dev&&npm run build && node lib/app.js",
+    "build": "babel --presets es2015 -d lib/ src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abiyogaaron/backend-test.git"
+  },
+  "author": "abaron",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abiyogaaron/backend-test/issues"
+  },
+  "homepage": "https://github.com/abiyogaaron/backend-test#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "cors": "^2.8.5",
+    "body-parser": "^1.19.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "nodemon": "^2.0.2"
+  }
+}
