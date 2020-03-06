@@ -2,6 +2,3 @@
 node_modules
 npm-debug.log
 lib
-
-.env
-.env.prod
